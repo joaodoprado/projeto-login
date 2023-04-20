@@ -4,5 +4,83 @@
     Paleta de cores
     Verde: #49a0d
     Lilás #5f2c82
-    
+
 */
+
+:root {
+    --lilas: #5f2c82;
+    --verde: #49a09d;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-symbols-outlined {
+    color: white;
+    padding: 0px 5px 15px 5px;
+    position: relative;
+    bottom: -9px;
+    right: -3px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 48
+
+}
+
+body {
+    background-color: var(--lilas);
+}
+
+main {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+div > p {
+    padding: 0px 10px 10px 10px;
+}
+
+img {
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+    height: 230px;
+}
+
+div.icone {
+    background-color: var(--lilas);
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 1px 0px 1px 1px;
+    border-radius: 10px;
+}
+
+
+
+#ilogin, #isenha {
+    width: 157px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+#botao, #botao2 {
+    margin: auto;
+    width: 157px;
+    height: 32px;
+    background-color: black;
+}
